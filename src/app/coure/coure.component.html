@@ -1,5 +1,8 @@
 <div>
-  <div>Number of Courses:</div>
+  <!--<div>{{courseHeading}}</div>     // string interpolation-->
+
+  <!--property binding-->
+  <div [textContent] = "courseHeading"></div>
   <ul>
     <li *ngFor="let course of courses">{{course}}</li>
   </ul>

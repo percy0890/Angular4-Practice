@@ -7,6 +7,8 @@ import {DataService} from '../data.service';
   styleUrls: ['./coure.component.css']
 })
 export class CoureComponent implements OnInit {
+  courseHeading = "Number of Courses:"
+  imageUrl = ""
   courses;
 
   constructor(service: DataService) {
